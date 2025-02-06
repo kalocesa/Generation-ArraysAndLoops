@@ -1,0 +1,24 @@
+:root {
+  --font-title: "Lilita One", serif;
+}
+
+#h1 {
+  color: #386641;
+  font-family: var(--font-title);
+  max-width: 1040px;
+  margin: 50px auto;
+}
+
+.card__subtitle {
+  color: #bc4749;
+  font-family: var(--font-title);
+}
+
+#subtitle__one {
+  font-weight: 600;
+  color: #6c584c;
+}
+
+#ardillina {
+  max-width: 250px;
+}
