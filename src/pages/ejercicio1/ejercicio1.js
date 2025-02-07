@@ -1,5 +1,5 @@
 const firstExcercise = () => {
-  const result = document.getElementById("operacion");
+  const result = document.getElementById("operacionUno");
   result.innerText = `
     let arr = ["This", "is", "a", "sentence."];
 
