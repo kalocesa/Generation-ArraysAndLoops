@@ -67,3 +67,7 @@
   max-width: 55px;
   margin-left: 25px;
 }
+
+#error {
+  max-width: 350px;
+}
