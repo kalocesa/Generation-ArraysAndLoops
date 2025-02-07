@@ -1,20 +1,20 @@
-const thirdExcercise = () => {
-  const result = document.getElementById("operacionTres");
+const fourthExcercise = () => {
+  const result = document.getElementById("operacionCuatro");
   result.innerText = `
-Tienes un array [ 1, 2, 3, 4] 
+let student1Courses = ['Math', 'English', 'Programming'];
 
-Suma = 10 
-
-Multiplicación  = 24
+let student2Courses = ['Geography', 'Spanish', 'Programming'];
       `;
 };
 
-thirdExcercise();
+fourthExcercise();
 
-const numbers = [1, 2, 3, 4];
+let student1Courses = ["Math", "English", "Programming"];
 
-const sum = numbers.reduce((sum, item) => sum + item, 0);
-const multiply = numbers.reduce((multiply, item) => multiply * item, 1);
+let student2Courses = ["Geography", "Spanish", "Programming"];
 
-console.log(`Este es el resultado de la suma: ${sum}`);
-console.log(`Este es el resultado de la multiplicación: ${multiply}`);
+const courses = student1Courses.filter((course) =>
+  student2Courses.includes(course)
+);
+
+console.log(`Los estudiantes toman juntos el curso de: ${courses}`);
