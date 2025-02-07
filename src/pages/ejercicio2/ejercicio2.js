@@ -14,5 +14,5 @@ const numbers = [1, 2, 4, 5];
 
 const multiplyNumbers = numbers.map((numero) => numero * 2);
 
-console.log(numbers);
-console.log(multiplyNumbers);
+console.log(`Los valores de nuestro array son: ${numbers}`);
+console.log(`Duplicando su valor, el resultado es: ${multiplyNumbers}`);
