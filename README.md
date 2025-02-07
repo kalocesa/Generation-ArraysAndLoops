@@ -1,6 +1,12 @@
-# Bootcamp Generation: Arrays and Loops Exercises
+# Jugaremos en el bosque mientras el lobo no esta aquí
 
-## Este repositorio contiene una serie de ejercicios sobre arreglos (arrays) y ciclos (loops) que forman parte del bootcamp de Generation. A continuación, se presentan los ejercicios y sus descripciones:
+### Únete a nosotros en un rincón del bosque, donde seis amigos programadores te guiarán a través de emocionantes ejercicios para dominar arreglos y ciclos en JavaScript. Cada ejercicio está diseñado para ofrecerte un desafío lleno de aprendizaje y diversión. ¡Prepárate para embarcarte en esta aventura única y enriquecedora!
+
+>Lenguajes utilizados: HTML, CSS y JS
+
+>Framework: Bootstrap
+
+##
 
 > **Exercise #1** (sugerencia: join())
 
