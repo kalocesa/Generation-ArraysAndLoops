@@ -2,6 +2,10 @@
   --font-title: "Lilita One", serif;
 }
 
+.bg {
+  background-color: #cad2c5;
+}
+
 #h1 {
   color: #386641;
   font-family: var(--font-title);
@@ -19,6 +23,6 @@
   color: #6c584c;
 }
 
-#ardillina {
-  max-width: 250px;
+.card-img {
+  width: 50px;
 }

@@ -1,12 +1,13 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Arrays and Loops</title>
-    <link rel="icon" href="./favicon.png">
+    <link rel="icon" href="/favicon.png">
     <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="./ejercicio1.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
@@ -17,30 +18,47 @@
 <body>
 
     <head>
-        <h1 class="display-1" id="h1">Programaremos en el bosque mientras el lobo no está aquí</h1>
+        <a class="btn btn-outline-success" href="/index.html" id="button">Regresar al bosque</a>
+        <div class="container">
+            <h1 class="text-center" id="h1">
+                Ejercicio 1</h1>
+            <p class="text-center">Copia el siguiente código en tu espacio de trabajo. <br> Recuerda completar
+                la
+                función para imprimir la
+                cadena: <br><strong>This is a sentence.</strong></p>
+        </div>
     </head>
+
     <main>
         <section>
-            <section class="d-flex flex-column align-items-center">
-                <h6 class="display-6" id="subtitle__one">Resultado del Script</h6>
-                <img src="/images/ardilla.png" alt="Descripción de la imagen" class="mb-3" id="ardillina">
-                <p class="h1" id="resultado"></p>
-            </section>
-
-            <script>
-                let arr = ["This", "is", "a", "sentence."];
-
-                function printOutString() {
-                    return arr.join(" ");
-                }
-
-                document.getElementById("resultado").textContent = printOutString();
-            </script>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <img src="/images/ardilla.png" alt="caricatura de ardilla feliz" class="img-fluid  mb-3"
+                            id="ardillina">
+                        <p class="h4 text-center" id="ardillina_text">Ardillina</p>
+                    </div>
+                    <div class="col">
+                        <p class="h4 p-5" id="operacion"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="container__share">
+                <p class="text__hover">Inspecciona en las
+                    devTools
+                    para comparar el
+                    resultado en la consola
+                </p>
+                <img src="/images/buscar.png" alt="icono de lupa" id="lupa">
+            </div>
         </section>
     </main>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <script src="./ejercicio1.js"></script>
+
 </body>
 
 </html>
