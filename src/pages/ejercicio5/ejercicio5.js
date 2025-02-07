@@ -1,20 +1,66 @@
-const thirdExcercise = () => {
-  const result = document.getElementById("operacionTres");
+const fifthExcercise = () => {
+  const result = document.getElementById("operacionCinco");
   result.innerText = `
-Tienes un array [ 1, 2, 3, 4] 
 
-Suma = 10 
 
-Multiplicación  = 24
+let people = ["Maria", "Dani", "Luis", "Juan", "Camila"];
       `;
 };
 
-thirdExcercise();
+fifthExcercise();
 
-const numbers = [1, 2, 3, 4];
+let people = ["Maria", "Dani", "Luis", "Juan", "Camila"];
 
-const sum = numbers.reduce((sum, item) => sum + item, 0);
-const multiply = numbers.reduce((multiply, item) => multiply * item, 1);
+console.log(`La lista de invitados son: ${people.join(", ")}`);
 
-console.log(`Este es el resultado de la suma: ${sum}`);
-console.log(`Este es el resultado de la multiplicación: ${multiply}`);
+const deletePerson = (name) => {
+  const indexPerson = people.indexOf(name);
+  if (indexPerson !== -1) {
+    people.splice(indexPerson, 1);
+  }
+};
+
+deletePerson("Dani");
+deletePerson("Juan");
+
+console.log(
+  `Dani y Juan comentaron que no pueden asistir, entonces nos quedamos con ${people.join(
+    ", "
+  )}`
+);
+
+const movePerson = (name) => {
+  const indexPerson = people.indexOf(name);
+  if (indexPerson !== -1) {
+    const [person] = people.splice(indexPerson, 1);
+    people.unshift(person);
+  }
+};
+
+movePerson("Luis");
+
+console.log(
+  `Luis es el cumpleañero, por lo cuál es el primer invitado de la lista: ${people.join(
+    ", "
+  )}`
+);
+
+people.push("Kati");
+
+console.log(
+  `Se agregó una invitada de último momento a la lista: ${people.join(", ")}`
+);
+
+for (let i = 0; i < people.length; i++) {
+  console.log(people[i]);
+  if (people[i] === "Maria") {
+    break;
+  }
+}
+
+const findPerson = (name) => {
+  let find = people.indexOf(name);
+  return find;
+};
+
+console.log(findPerson("Maria"));
