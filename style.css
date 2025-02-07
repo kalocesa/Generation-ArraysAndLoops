@@ -13,6 +13,12 @@
   margin: 50px auto;
 }
 
+#header__text {
+  max-width: 1200px;
+  margin: 50px auto;
+  text-align: justify;
+}
+
 .card__subtitle {
   color: #bc4749;
   font-family: var(--font-title);
