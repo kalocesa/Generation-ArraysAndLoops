@@ -61,7 +61,7 @@
 
 .container__share {
   position: relative;
-  left: 50%;
+  left: 5%;
   display: inline-block;
 }
 
@@ -71,7 +71,7 @@
 
 #share {
   max-width: 55px;
-  margin-left: 25px;
+  margin: auto;
 }
 
 #error {
